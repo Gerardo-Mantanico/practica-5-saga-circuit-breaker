@@ -1,0 +1,14 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: shipping-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/practica5
+    username: practica5
+    password: practica5
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false

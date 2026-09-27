@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: inventory-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/practica5
+    username: practica5
+    password: practica5
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+servicio-envio:
+  url: http://localhost:8084
